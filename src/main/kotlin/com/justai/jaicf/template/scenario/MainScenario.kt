@@ -27,7 +27,7 @@ val mainScenario = Scenario {
 
     state("bye") {
         activators {
-            intent("Bye")
+            intent("bye")
         }
 
         action {
@@ -51,8 +51,7 @@ val mainScenario = Scenario {
 
     fallback {
         reactions.sayRandom(
-            "Sorry, I didn't get that...",
-            "Sorry, could you repeat please?"
+            "LoL, no, lmao"
         )
     }
 }
