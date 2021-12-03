@@ -51,7 +51,7 @@ val mainScenario = Scenario {
 
     fallback {
         reactions.sayRandom(
-            "LoL, no, lmao"
+            "lmao, you have failed"
         )
     }
 }
